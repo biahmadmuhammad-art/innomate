@@ -1,0 +1,47 @@
+# Innomate (إنوميت)
+
+> Innomate is an Egyptian ERPNext implementation partner based in 10th of Ramadan City, Sharqia, Egypt. It implements ERPNext (open-source ERP by Frappe) and integrates it with the Egyptian Tax Authority's e-invoice and e-receipt systems (ETA), ZKTeco biometric attendance devices, Power BI, WhatsApp and IoT sensors, and builds AI agents that work inside ERPNext with human approval. The site is published in Arabic (root) and English (/en/).
+
+- Contact: info@innomate-tech.com · +20 101 027 2760 · WhatsApp https://wa.me/201010272760
+- Address: 103, NH 26, 10th of Ramadan City, Sharqia, Egypt
+- Implementation time: typically 4–12 weeks depending on scope (company's stated range)
+- Languages: Arabic, English
+
+## Services
+- [ERPNext implementation](https://innomate-tech.com/en/services/erpnext.html): ERPNext is an open-source enterprise resource planning (ERP) system by Frappe. It combines accounting, sales, purchasing, inventory, manufacturing and HR in one database, with no per-user licence fee.
+- [ETA e-invoice and e-receipt integration](https://innomate-tech.com/en/services/eta-e-invoice.html): Egypt’s e-invoice system is the Egyptian Tax Authority (ETA) platform that records business-to-business sales in real time with a digital signature. The e-receipt system is its counterpart for consumer (B2C) sales at the point of sale.
+- [HR and payroll](https://innomate-tech.com/en/services/hr-payroll.html): An HR and payroll system manages the whole employee cycle (hiring, attendance, leave, pay and deductions) and posts the payroll journal entry automatically into the same accounting system.
+- [ZKTeco attendance integration](https://innomate-tech.com/en/services/zkteco-attendance.html): ZKTeco integration means pulling fingerprint check-in and check-out records automatically from the device into the HR system, where they are matched to shifts to calculate attendance, lateness and overtime.
+- [Warehouse and inventory management](https://innomate-tech.com/en/services/warehouse-management.html): A warehouse management system records every stock movement (receipt, transfer, issue, count) with its batch and location, giving a live balance and correct cost in every warehouse.
+- [IoT integration](https://innomate-tech.com/en/services/iot-integration.html): IoT integration with ERP means sending sensor and machine readings to the system automatically, so numbers on a machine display become data that updates production, stock and maintenance.
+- [AI agents](https://innomate-tech.com/en/services/ai-agents.html): An AI agent is software that understands a request in natural language, then reads data and takes steps inside business systems to complete it, where a chatbot only answers.
+- [Business intelligence and Power BI](https://innomate-tech.com/en/services/business-intelligence.html): Business intelligence (BI) turns operational data into indicators and dashboards that support management decisions. It is most useful when connected directly to the source, so nothing has to be refreshed by hand.
+- [ERPNext customization](https://innomate-tech.com/en/services/custom-development.html): ERPNext customization means adding fields, screens, reports and business logic through separate Frappe apps, so changes survive upgrades of the core system.
+- [Managed ERPNext cloud hosting](https://innomate-tech.com/en/services/cloud-hosting.html): Managed hosting means the provider handles the server, system updates, backups, monitoring and security, so your team can focus on using the system.
+
+## Sectors
+- [ERP for food manufacturers](https://innomate-tech.com/en/sectors/food.html)
+- [ERP for pharmaceutical manufacturers and distributors](https://innomate-tech.com/en/sectors/pharma.html)
+- [ERP for electrical panel manufacturers](https://innomate-tech.com/en/sectors/electrical.html)
+- [ERP for paint and chemical manufacturers](https://innomate-tech.com/en/sectors/paints.html)
+- [ERP for garment and textile manufacturers](https://innomate-tech.com/en/sectors/apparel.html)
+- [ERP for furniture factories and showrooms](https://innomate-tech.com/en/sectors/furniture.html)
+- [ERP for contracting companies](https://innomate-tech.com/en/sectors/contracting.html)
+- [School and university management system](https://innomate-tech.com/en/sectors/education.html)
+- [ERP for hospitals, clinics and laboratories](https://innomate-tech.com/en/sectors/health.html)
+- [ERP for farms and livestock producers](https://innomate-tech.com/en/sectors/agri.html)
+- [Sustainability and ESG reporting from operating data](https://innomate-tech.com/en/sectors/sustainability.html)
+- [Accounting and management software for non-profits](https://innomate-tech.com/en/sectors/nonprofit.html)
+- [Accounting and invoicing for professional firms](https://innomate-tech.com/en/sectors/professionals.html)
+
+## Key pages
+- [Pricing and implementation cost](https://innomate-tech.com/en/pricing.html)
+- [Implementation methodology](https://innomate-tech.com/en/how-we-work.html)
+- [Integrations](https://innomate-tech.com/en/integrations.html)
+- [FAQ](https://innomate-tech.com/en/faq.html)
+- [Contact](https://innomate-tech.com/en/contact.html)
+- [Arabic version](https://innomate-tech.com/)
+
+## Official references
+- Egyptian Tax Authority: https://www.eta.gov.eg
+- ERPNext: https://frappe.io/erpnext

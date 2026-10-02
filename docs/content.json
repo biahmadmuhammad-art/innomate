@@ -1,0 +1,781 @@
+{
+ "services": [
+  {
+   "slug": "erpnext",
+   "name": "تطبيق نظام ERPNext",
+   "kw": [
+    "نظام ERP",
+    "ERPNext مصر",
+    "برنامج حسابات ومخازن",
+    "نظام إدارة موارد المؤسسات",
+    "شريك تطبيق ERPNext"
+   ],
+   "title": "تطبيق نظام ERPNext في مصر | شريك تطبيق ERP – Innomate",
+   "enKw": [
+    "ERPNext implementation Egypt",
+    "ERPNext partner Egypt",
+    "ERP system Egypt",
+    "ERPNext consultant",
+    "ERP for manufacturing Egypt"
+   ]
+  },
+  {
+   "slug": "eta-e-invoice",
+   "name": "ربط الفاتورة والإيصال الإلكتروني",
+   "kw": [
+    "الفاتورة الإلكترونية",
+    "ربط الفاتورة الإلكترونية",
+    "الإيصال الإلكتروني",
+    "منظومة الفاتورة الإلكترونية مصلحة الضرائب",
+    "ETA e-invoice integration"
+   ],
+   "title": "ربط الفاتورة والإيصال الإلكتروني بـ ERPNext | Innomate",
+   "enKw": [
+    "Egypt e-invoice integration",
+    "ETA e-invoice ERPNext",
+    "Egypt e-receipt integration",
+    "Egyptian Tax Authority API",
+    "e-invoicing Egypt"
+   ]
+  },
+  {
+   "slug": "hr-payroll",
+   "name": "الموارد البشرية والمرتبات",
+   "kw": [
+    "برنامج موارد بشرية",
+    "برنامج مرتبات مصر",
+    "حساب المرتبات والتأمينات",
+    "نظام HR",
+    "ضريبة كسب العمل"
+   ],
+   "title": "برنامج موارد بشرية ومرتبات للشركات في مصر | Innomate",
+   "enKw": [
+    "payroll software Egypt",
+    "HR software Egypt",
+    "ERPNext HR payroll",
+    "social insurance calculation Egypt",
+    "Frappe HR"
+   ]
+  },
+  {
+   "slug": "zkteco-attendance",
+   "name": "ربط أجهزة البصمة ZKTeco",
+   "kw": [
+    "ربط جهاز البصمة",
+    "ZKTeco ERPNext",
+    "برنامج حضور وانصراف",
+    "ربط البصمة بالمرتبات",
+    "جهاز بصمة الحضور"
+   ],
+   "title": "ربط جهاز البصمة ZKTeco بنظام الحضور والمرتبات | Innomate",
+   "enKw": [
+    "ZKTeco ERPNext integration",
+    "biometric attendance ERPNext",
+    "ZKTeco payroll integration",
+    "attendance system Egypt",
+    "fingerprint attendance integration"
+   ]
+  },
+  {
+   "slug": "warehouse-management",
+   "name": "إدارة المخازن والمستودعات",
+   "kw": [
+    "برنامج مخازن",
+    "نظام إدارة المستودعات",
+    "برنامج جرد",
+    "تتبع تاريخ الصلاحية",
+    "برنامج مخزون"
+   ],
+   "title": "برنامج إدارة المخازن والمستودعات | نظام مخزون ERPNext – Innomate",
+   "enKw": [
+    "inventory management software Egypt",
+    "warehouse management ERPNext",
+    "batch and expiry tracking",
+    "stock management software",
+    "barcode inventory"
+   ]
+  },
+  {
+   "slug": "iot-integration",
+   "name": "ربط إنترنت الأشياء IoT",
+   "kw": [
+    "إنترنت الأشياء في المصانع",
+    "IoT ERP",
+    "ربط الآلات بالنظام",
+    "مراقبة خطوط الإنتاج",
+    "الصيانة التنبؤية"
+   ],
+   "title": "ربط إنترنت الأشياء IoT بنظام ERP للمصانع | Innomate",
+   "enKw": [
+    "IoT ERP integration",
+    "IoT manufacturing Egypt",
+    "machine data ERPNext",
+    "production monitoring",
+    "predictive maintenance"
+   ]
+  },
+  {
+   "slug": "ai-agents",
+   "name": "وكلاء الذكاء الاصطناعي",
+   "kw": [
+    "وكلاء الذكاء الاصطناعي",
+    "الذكاء الاصطناعي للشركات",
+    "أتمتة الأعمال بالذكاء الاصطناعي",
+    "AI agents ERP",
+    "مساعد ذكي للشركات"
+   ],
+   "title": "وكلاء الذكاء الاصطناعي للشركات داخل ERPNext | Innomate",
+   "enKw": [
+    "AI agents for ERP",
+    "ERPNext AI",
+    "AI business automation Egypt",
+    "AI for accounting",
+    "ERP assistant"
+   ]
+  },
+  {
+   "slug": "business-intelligence",
+   "name": "ذكاء الأعمال ولوحات Power BI",
+   "kw": [
+    "ذكاء الأعمال",
+    "Power BI مصر",
+    "لوحات مؤشرات الأداء",
+    "تقارير الإدارة",
+    "KPI dashboard"
+   ],
+   "title": "ذكاء الأعمال ولوحات Power BI من بيانات ERP | Innomate",
+   "enKw": [
+    "Power BI ERPNext",
+    "business intelligence Egypt",
+    "KPI dashboard",
+    "management reporting",
+    "Power BI consultant Egypt"
+   ]
+  },
+  {
+   "slug": "custom-development",
+   "name": "تطوير وتخصيص ERPNext",
+   "kw": [
+    "تخصيص ERPNext",
+    "تطوير ERPNext",
+    "برمجة تقارير",
+    "Frappe development",
+    "ربط API"
+   ],
+   "title": "تطوير وتخصيص ERPNext وبرمجة التقارير | Innomate",
+   "enKw": [
+    "ERPNext customization",
+    "Frappe development Egypt",
+    "ERPNext developer",
+    "custom ERP reports",
+    "ERPNext API integration"
+   ]
+  },
+  {
+   "slug": "cloud-hosting",
+   "name": "استضافة ERPNext السحابية",
+   "kw": [
+    "استضافة ERPNext",
+    "ERPNext cloud",
+    "استضافة سحابية مصر",
+    "خادم ERP",
+    "نسخ احتياطي"
+   ],
+   "title": "استضافة ERPNext سحابية مُدارة في مصر | Innomate",
+   "enKw": [
+    "ERPNext hosting Egypt",
+    "managed ERPNext",
+    "ERPNext cloud",
+    "ERP server Egypt",
+    "ERPNext backup"
+   ]
+  }
+ ],
+ "sectors": [
+  {
+   "slug": "food",
+   "name": "الصناعات الغذائية",
+   "title": "برنامج ERP لمصانع الأغذية | التشغيلات والصلاحية – Innomate"
+  },
+  {
+   "slug": "pharma",
+   "name": "الأدوية والمستحضرات",
+   "title": "نظام ERP لمصانع وشركات الأدوية في مصر | Innomate"
+  },
+  {
+   "slug": "electrical",
+   "name": "اللوحات الكهربائية",
+   "title": "نظام ERP لمصانع اللوحات الكهربائية | تسعير وBOM – Innomate"
+  },
+  {
+   "slug": "paints",
+   "name": "الدهانات والكيماويات",
+   "title": "نظام ERP لمصانع الدهانات | التركيبات والتشغيلات – Innomate"
+  },
+  {
+   "slug": "apparel",
+   "name": "الملابس والنسيج",
+   "title": "برنامج ERP لمصانع الملابس الجاهزة والنسيج | Innomate"
+  },
+  {
+   "slug": "furniture",
+   "name": "الأثاث والموبيليا",
+   "title": "برنامج إدارة مصانع ومعارض الأثاث | ERP للموبيليا – Innomate"
+  },
+  {
+   "slug": "contracting",
+   "name": "المقاولات والمشروعات",
+   "title": "برنامج ERP لشركات المقاولات | المشروعات والمستخلصات – Innomate"
+  },
+  {
+   "slug": "education",
+   "name": "التعليم",
+   "title": "نظام إدارة المدارس والجامعات على ERPNext | Innomate"
+  },
+  {
+   "slug": "health",
+   "name": "الرعاية الصحية",
+   "title": "نظام ERP للمستشفيات والعيادات والمعامل | Innomate"
+  },
+  {
+   "slug": "agri",
+   "name": "الزراعة والإنتاج الحيواني",
+   "title": "برنامج إدارة المزارع والإنتاج الحيواني | ERP زراعي – Innomate"
+  },
+  {
+   "slug": "sustainability",
+   "name": "الاستدامة وتقارير ESG",
+   "title": "قياس الاستدامة وتقارير ESG من نظام ERP | Innomate"
+  },
+  {
+   "slug": "nonprofit",
+   "name": "الجمعيات والمؤسسات الأهلية",
+   "title": "برنامج حسابات الجمعيات الخيرية والمؤسسات الأهلية | Innomate"
+  },
+  {
+   "slug": "professionals",
+   "name": "المكاتب المهنية والمهن الحرة",
+   "title": "برنامج فواتير وحسابات للمهن الحرة والمكاتب المهنية | Innomate"
+  }
+ ],
+ "pages": [
+  {
+   "path": "404.html",
+   "title": "الصفحة غير موجودة | Innomate",
+   "desc": "الصفحة غير موجودة.",
+   "h1": "الصفحة غير موجودة",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "about.html",
+   "title": "من نحن | Innomate – شركة ERPNext في العاشر من رمضان",
+   "desc": "Innomate شركة مصرية مقرها العاشر من رمضان، تطبّق ERPNext وتربطه بالفاتورة الإلكترونية وأجهزة البصمة ووكلاء الذكاء الاصطناعي.",
+   "h1": "Innomate: فريق ERPNext من العاشر من رمضان",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "careers/b2b-sales-specialist.html",
+   "title": "أخصائي مبيعات B2B – وظيفة في Innomate | العاشر من رمضان",
+   "desc": "تدير دورة بيع نظام ERP كاملة، من البحث عن العملاء حتى إغلاق الصفقة، كمستشار يفهم عمليات المالية والموارد البشرية والمخازن والتصنيع.",
+   "h1": "أخصائي مبيعات B2B",
+   "schema": "Organization, PostalAddress, JobPosting, Place"
+  },
+  {
+   "path": "careers.html",
+   "title": "وظائف ERPNext في العاشر من رمضان | Innomate",
+   "desc": "انضم إلى فريق Innomate: وظائف مبيعات ومطوري Frappe ومستشاري تطبيق ERPNext في العاشر من رمضان.",
+   "h1": "وظائف ERPNext في العاشر من رمضان",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "clients.html",
+   "title": "عملاؤنا وقصص نجاح ERPNext في مصر | Innomate",
+   "desc": "شركات ومصانع في أكثر من 10 قطاعات تعمل على أنظمة Innomate: أغذية، أدوية، ملابس، كهربائيات، أثاث، دهانات، تعليم، وزراعة.",
+   "h1": "شركات ومصانع تعمل على أنظمتنا",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "contact.html",
+   "title": "تواصل مع Innomate | احجز جلسة تحليل مجانية",
+   "desc": "احجز جلسة تحليل مجانية مع فريق Innomate. واتساب وهاتف وبريد، ومكتبنا في العاشر من رمضان، الشرقية.",
+   "h1": "احجز جلسة تحليل مجانية",
+   "schema": "Organization, PostalAddress, ContactPage"
+  },
+  {
+   "path": "en/404.html",
+   "title": "Page not found | Innomate",
+   "desc": "Page not found.",
+   "h1": "Page not found",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/about.html",
+   "title": "About Innomate – ERPNext Company in 10th of Ramadan",
+   "desc": "Innomate is an Egyptian company in 10th of Ramadan City implementing ERPNext with e-invoicing, biometric attendance and AI agent integrations.",
+   "h1": "Innomate: the ERPNext team from 10th of Ramadan City",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/careers/b2b-sales-specialist.html",
+   "title": "B2B Sales Specialist – Job at Innomate | 10th of Ramadan City",
+   "desc": "Manage the full sales cycle for our ERP software, from prospecting to closing, as a consultative partner who understands finance, HR, inventory and manufacturing workflows.",
+   "h1": "B2B Sales Specialist",
+   "schema": "Organization, PostalAddress, JobPosting, Place"
+  },
+  {
+   "path": "en/careers.html",
+   "title": "ERPNext Jobs in 10th of Ramadan City | Innomate Careers",
+   "desc": "Join Innomate: sales, Frappe developer and ERPNext implementation consultant roles in 10th of Ramadan City, Egypt.",
+   "h1": "ERPNext jobs in 10th of Ramadan City",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/clients.html",
+   "title": "Clients &amp; ERPNext Case Studies in Egypt | Innomate",
+   "desc": "Companies and factories in more than 10 industries run on Innomate systems: food, pharma, apparel, electrical, furniture, paints, education and agriculture.",
+   "h1": "Companies and factories running on our systems",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/contact.html",
+   "title": "Contact Innomate | Book a Free Discovery Session",
+   "desc": "Book a free discovery session with Innomate. WhatsApp, phone and email; our office is in 10th of Ramadan City, Sharqia, Egypt.",
+   "h1": "Book a free discovery session",
+   "schema": "Organization, PostalAddress, ContactPage"
+  },
+  {
+   "path": "en/faq.html",
+   "title": "ERPNext FAQ: Implementation, Cost &amp; Support | Innomate",
+   "desc": "Is ERPNext free? How long does implementation take? Does it support Egypt’s e-invoice? Straight answers from the Innomate team.",
+   "h1": "ERPNext FAQ: implementation, cost and support",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer"
+  },
+  {
+   "path": "en/how-we-work.html",
+   "title": "ERP Implementation Phases &amp; Timeline | Innomate Method",
+   "desc": "Five phases to implement ERPNext in 4 to 12 weeks: analysis, design, setup and data migration, training and trial run, go-live and support.",
+   "h1": "ERP implementation phases with Innomate",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/index.html",
+   "title": "Innomate | ERPNext Partner in Egypt – ERP &amp; E-Invoicing",
+   "desc": "Innomate is an ERPNext implementation partner in Egypt: ERP for accounting, inventory, payroll and manufacturing, ETA e-invoice and ZKTeco integration, and AI agents.",
+   "h1": "One ERP system that runs your accountinginventorypayrolle-invoicingproductioncollectionsaccounting and talks to the Egyptian Tax Authority.",
+   "schema": "Organization, PostalAddress, WebSite, FAQPage, Question, Answer"
+  },
+  {
+   "path": "en/integrations.html",
+   "title": "ERPNext Integrations: ETA, ZKTeco, Banks, WhatsApp | Innomate",
+   "desc": "ERPNext integrations: ETA e-invoice and e-receipt, ZKTeco devices, Power BI, WhatsApp, banks, payment gateways, online stores and IoT sensors.",
+   "h1": "ERPNext integrations with the systems and devices you use",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/pricing.html",
+   "title": "ERPNext Implementation Cost in Egypt 2026 | Innomate",
+   "desc": "How much does ERPNext implementation cost in Egypt? No per-user licence fees. E-invoice, Starter and Factory packages, plus a timeline estimator.",
+   "h1": "How much does ERPNext implementation cost in Egypt?",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/resources.html",
+   "title": "ERPNext &amp; Egypt E-Invoicing Guides | Innomate",
+   "desc": "Practical guides on ERPNext, Egypt’s e-invoice and e-receipt, payroll, ZKTeco attendance and AI agents, written by our implementation team.",
+   "h1": "ERPNext and e-invoicing guides",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "en/sectors/agri.html",
+   "title": "Farm &amp; Livestock Management ERP in Egypt | Innomate",
+   "desc": "ERP for farms and livestock: crop and herd costing, agricultural inputs, seasonal labour and exports on ERPNext.",
+   "h1": "ERP for farms and livestock producers",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/apparel.html",
+   "title": "ERP for Garment &amp; Textile Manufacturers in Egypt | Innomate",
+   "desc": "ERP for ready-made garment and textile factories: size and colour matrices, cutting, sewing and finishing stages, fabrics and trims, and piece-rate payroll.",
+   "h1": "ERP for garment and textile manufacturers",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/contracting.html",
+   "title": "ERP for Contractors | Projects &amp; Progress Billing – Innomate",
+   "desc": "ERP for contractors: project budgets, progress billing, subcontractors, site materials and actual cost per project on ERPNext.",
+   "h1": "ERP for contracting companies",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/education.html",
+   "title": "School &amp; University Management System on ERPNext | Innomate",
+   "desc": "Management system for schools, universities and training centres: student affairs, fees and collection, HR and accounting in one system.",
+   "h1": "School and university management system",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/electrical.html",
+   "title": "ERP for Electrical Panel Manufacturers | Quoting &amp; BOM – Innomate",
+   "desc": "ERP for switchgear and electrical panel builders: panel quoting, multi-level BOMs, work orders per project, component tracking and quality control on ERPNext.",
+   "h1": "ERP for electrical panel manufacturers",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/food.html",
+   "title": "ERP for Food Manufacturers in Egypt | Batch &amp; Expiry – Innomate",
+   "desc": "ERP for food factories: recipes, batch and expiry tracking, food safety, cold rooms and distribution, with ETA e-invoice integration.",
+   "h1": "ERP for food manufacturers",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/furniture.html",
+   "title": "ERP for Furniture Factories &amp; Showrooms | Innomate",
+   "desc": "ERP for furniture factories and showrooms: custom orders, production cost, wood and materials, showroom management, delivery and installation on ERPNext.",
+   "h1": "ERP for furniture factories and showrooms",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/health.html",
+   "title": "ERP for Hospitals, Clinics &amp; Labs in Egypt | Innomate",
+   "desc": "ERP for hospitals, clinics and laboratories: accounting, medical stores and supplies, patient and insurance billing, and HR on ERPNext.",
+   "h1": "ERP for hospitals, clinics and laboratories",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/index.html",
+   "title": "ERP by Industry: Factories &amp; Companies in Egypt | Innomate",
+   "desc": "ERPNext systems for food, pharma, apparel, paint, electrical panel and furniture factories, and for education, healthcare, contracting, NGOs and professional firms.",
+   "h1": "ERP by industry: factories, companies and institutions",
+   "schema": "Organization, PostalAddress, CollectionPage, WebPage"
+  },
+  {
+   "path": "en/sectors/nonprofit.html",
+   "title": "Accounting &amp; Management Software for NGOs in Egypt | Innomate",
+   "desc": "System for NGOs and charities: donations and donors, projects and grants, beneficiaries, and governance and transparency reporting.",
+   "h1": "Accounting and management software for non-profits",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/paints.html",
+   "title": "ERP for Paint &amp; Chemical Factories | Formulas – Innomate",
+   "desc": "ERP for paint and chemical factories: formula and mix management, production batches, quality control and distribution on ERPNext.",
+   "h1": "ERP for paint and chemical manufacturers",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/pharma.html",
+   "title": "ERP for Pharma Manufacturers &amp; Distributors | Innomate",
+   "desc": "ERP for pharmaceutical companies and factories: batch and expiry tracking, quality control, distribution and the ETA e-invoice on ERPNext.",
+   "h1": "ERP for pharmaceutical manufacturers and distributors",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/professionals.html",
+   "title": "Invoicing &amp; Accounting for Professional Firms in Egypt | Innomate",
+   "desc": "System for consultancies, law and accounting firms, private clinics and freelancers: clients and contracts, time and fees, invoicing and the ETA e-invoice.",
+   "h1": "Accounting and invoicing for professional firms",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/sectors/sustainability.html",
+   "title": "Sustainability &amp; ESG Reporting from ERP Data | Innomate",
+   "desc": "Measure energy, water and emissions and produce ESG reports from actual operating data in ERPNext, with IoT sensors on energy meters.",
+   "h1": "Sustainability and ESG reporting from operating data",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/ai-agents.html",
+   "title": "AI Agents for ERPNext: Business Automation in Egypt | Innomate",
+   "desc": "AI agents inside ERPNext: answers from your data in Arabic or English, reports on demand, stock and receivables alerts, and tasks done with human approval.",
+   "h1": "AI agents that work inside your ERP",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/business-intelligence.html",
+   "title": "Business Intelligence &amp; Power BI Dashboards on ERPNext | Innomate",
+   "desc": "KPI dashboards and Power BI reports connected directly to ERPNext: live sales, profitability, inventory and receivables for management, with no manual exports.",
+   "h1": "KPI dashboards and business intelligence",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/cloud-hosting.html",
+   "title": "Managed ERPNext Cloud Hosting in Egypt | Innomate",
+   "desc": "ERPNext hosting on cloud or on-premise servers: high performance, daily backups, encryption, 24/7 monitoring and managed updates that don’t interrupt work.",
+   "h1": "Managed ERPNext cloud hosting",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/custom-development.html",
+   "title": "ERPNext Customization &amp; Frappe Development in Egypt | Innomate",
+   "desc": "ERPNext customized to how you work: new screens and fields, approval flows, bilingual reports and print formats, custom Frappe apps, and API integrations.",
+   "h1": "ERPNext customization built around your business",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/erpnext.html",
+   "title": "ERPNext Implementation Partner in Egypt | Innomate",
+   "desc": "ERPNext implementation in Egypt: accounting, sales, purchasing, inventory and manufacturing in one system, with ETA e-invoice integration, training and 24/7 support.",
+   "h1": "ERPNext implementation for companies in Egypt",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/eta-e-invoice.html",
+   "title": "Egypt ETA E-Invoice &amp; E-Receipt Integration for ERPNext | Innomate",
+   "desc": "Connect ERPNext to the Egyptian Tax Authority’s e-invoice and e-receipt systems: item coding, digital signature, automatic submission and live document status.",
+   "h1": "Egypt e-invoice and e-receipt integration for ERPNext",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/hr-payroll.html",
+   "title": "HR &amp; Payroll Software for Companies in Egypt | Innomate",
+   "desc": "HR and payroll on ERPNext: employee records, attendance, leave, payroll with Egyptian social insurance and income tax, and an employee self-service portal.",
+   "h1": "HR and payroll software for Egypt",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/index.html",
+   "title": "ERPNext &amp; AI Solutions for Companies in Egypt | Innomate",
+   "desc": "Ten services on one system: ERPNext implementation, e-invoicing, HR and payroll, inventory, ZKTeco, IoT, AI agents, Power BI, development and hosting.",
+   "h1": "ERPNext and AI solutions for companies in Egypt",
+   "schema": "Organization, PostalAddress, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/iot-integration.html",
+   "title": "IoT Integration with ERP for Factories in Egypt | Innomate",
+   "desc": "Connect machines and sensors to ERPNext: production counters, energy, temperature and humidity feed work orders and maintenance in real time.",
+   "h1": "Connect machines and sensors to your ERP",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/warehouse-management.html",
+   "title": "Warehouse &amp; Inventory Management Software on ERPNext | Innomate",
+   "desc": "Inventory management on ERPNext: multiple warehouses, batch, expiry and serial tracking, barcodes, stock counts and reorder alerts across every branch.",
+   "h1": "Warehouse and inventory management software",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "en/services/zkteco-attendance.html",
+   "title": "ZKTeco Integration with ERPNext Attendance &amp; Payroll | Innomate",
+   "desc": "Connect ZKTeco biometric devices to ERPNext: punches pulled automatically from every branch and applied to shifts and payroll with no manual exports.",
+   "h1": "ZKTeco biometric integration with ERPNext attendance and payroll",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "faq.html",
+   "title": "أسئلة شائعة عن ERPNext والتطبيق والتكلفة | Innomate",
+   "desc": "هل ERPNext مجاني؟ كم مدة التطبيق؟ هل يدعم الفاتورة الإلكترونية؟ إجابات مباشرة من فريق Innomate.",
+   "h1": "أسئلة شائعة عن ERPNext والتطبيق والتكلفة",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer"
+  },
+  {
+   "path": "how-we-work.html",
+   "title": "مراحل تطبيق نظام ERP ومدته | منهجية Innomate",
+   "desc": "خمس مراحل لتطبيق ERPNext من 4 إلى 12 أسبوعاً: التحليل، التصميم، الإعداد ونقل البيانات، التدريب والتشغيل التجريبي، الإطلاق والدعم.",
+   "h1": "مراحل تطبيق نظام ERP مع Innomate",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "index.html",
+   "title": "Innomate | شريك ERPNext في مصر – نظام ERP والفاتورة الإلكترونية",
+   "desc": "Innomate شريك تطبيق ERPNext في مصر: نظام ERP للحسابات والمخازن والمرتبات والتصنيع، ربط الفاتورة والإيصال الإلكتروني وأجهزة البصمة، ووكلاء ذكاء اصطناعي. العاشر من رمضان.",
+   "h1": "نظام ERP واحد يدير الحساباتالمخازنالمرتباتالفاتورة الإلكترونيةالإنتاجالتحصيلالحسابات ويتكلم مع مصلحة الضرائب.",
+   "schema": "Organization, PostalAddress, WebSite, FAQPage, Question, Answer"
+  },
+  {
+   "path": "integrations.html",
+   "title": "ربط ERPNext مع الضرائب والبصمة والبنوك وواتساب | Innomate",
+   "desc": "تكاملات ERPNext: الفاتورة والإيصال الإلكتروني، أجهزة ZKTeco، Power BI، واتساب، البنوك، بوابات الدفع، المتاجر الإلكترونية، وحساسات IoT.",
+   "h1": "ربط ERPNext مع الأنظمة والأجهزة التي تعمل بها",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "pricing.html",
+   "title": "تكلفة وأسعار تطبيق ERPNext في مصر 2026 | باقات Innomate",
+   "desc": "كم تكلفة تطبيق ERPNext في مصر؟ لا رسوم ترخيص لكل مستخدم. باقات ربط الفاتورة الإلكترونية، البداية، والمصنع، مع مقدّر مدة التطبيق.",
+   "h1": "كم تكلفة تطبيق نظام ERPNext في مصر؟",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "resources.html",
+   "title": "أدلة ERPNext والفاتورة الإلكترونية بالعربي | Innomate",
+   "desc": "أدلة عملية عن ERPNext والفاتورة والإيصال الإلكتروني والمرتبات والبصمة ووكلاء الذكاء الاصطناعي، يكتبها فريق التطبيق.",
+   "h1": "أدلة ERPNext والفاتورة الإلكترونية بالعربي",
+   "schema": "Organization, PostalAddress"
+  },
+  {
+   "path": "sectors/agri.html",
+   "title": "برنامج إدارة المزارع والإنتاج الحيواني | ERP زراعي – Innomate",
+   "desc": "نظام ERP للمزارع والإنتاج الحيواني: تكلفة المحصول والقطيع، المستلزمات الزراعية، العمالة الموسمية، والتصدير على ERPNext.",
+   "h1": "نظام ERP للمزارع والإنتاج الحيواني",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/apparel.html",
+   "title": "برنامج ERP لمصانع الملابس الجاهزة والنسيج | Innomate",
+   "desc": "نظام ERP لمصانع الملابس الجاهزة والنسيج: المقاسات والألوان، مراحل القص والخياطة والتشطيب، الأقمشة والإكسسوارات، والمرتبات بالقطعة.",
+   "h1": "نظام ERP لمصانع الملابس الجاهزة والنسيج",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/contracting.html",
+   "title": "برنامج ERP لشركات المقاولات | المشروعات والمستخلصات – Innomate",
+   "desc": "نظام ERP لشركات المقاولات: ميزانيات المشروعات، المستخلصات، المقاولين من الباطن، المواد في المواقع، والتكلفة الفعلية لكل مشروع.",
+   "h1": "نظام ERP لشركات المقاولات",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/education.html",
+   "title": "نظام إدارة المدارس والجامعات على ERPNext | Innomate",
+   "desc": "نظام إدارة المدارس والجامعات ومراكز التدريب: شؤون الطلاب، المصروفات والتحصيل، الموارد البشرية، والحسابات في نظام واحد.",
+   "h1": "نظام إدارة المدارس والجامعات",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/electrical.html",
+   "title": "نظام ERP لمصانع اللوحات الكهربائية | تسعير وBOM – Innomate",
+   "desc": "نظام ERP لمصانع اللوحات الكهربائية: تسعير اللوحات، قوائم المواد (BOM)، أوامر تشغيل لكل مشروع، تتبع المكونات، ومراقبة الجودة على ERPNext.",
+   "h1": "نظام ERP لمصانع اللوحات الكهربائية",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/food.html",
+   "title": "برنامج ERP لمصانع الأغذية | التشغيلات والصلاحية – Innomate",
+   "desc": "نظام ERP لمصانع الأغذية: وصفات الإنتاج، تتبع التشغيلات وتواريخ الصلاحية، سلامة الغذاء، غرف التبريد، والتوزيع، مع ربط الفاتورة الإلكترونية.",
+   "h1": "نظام ERP لمصانع الأغذية",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/furniture.html",
+   "title": "برنامج إدارة مصانع ومعارض الأثاث | ERP للموبيليا – Innomate",
+   "desc": "نظام ERP لمصانع ومعارض الأثاث: طلبات مخصصة، تكلفة الإنتاج، الأخشاب والخامات، إدارة المعارض والتسليم والتركيب على ERPNext.",
+   "h1": "نظام ERP لمصانع ومعارض الأثاث",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/health.html",
+   "title": "نظام ERP للمستشفيات والعيادات والمعامل | Innomate",
+   "desc": "نظام ERP للمستشفيات والعيادات والمعامل: الحسابات، مخازن الأدوية والمستلزمات، الفوترة وشركات التأمين، والموارد البشرية على ERPNext.",
+   "h1": "نظام ERP للمستشفيات والعيادات والمعامل",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/index.html",
+   "title": "نظام ERP حسب القطاع: المصانع والشركات في مصر | Innomate",
+   "desc": "أنظمة ERPNext لمصانع الأغذية والأدوية والملابس والدهانات واللوحات الكهربائية والأثاث، وللتعليم والصحة والمقاولات والجمعيات والمهن الحرة.",
+   "h1": "نظام ERP حسب القطاع: مصانع وشركات وجهات",
+   "schema": "Organization, PostalAddress, CollectionPage, WebPage"
+  },
+  {
+   "path": "sectors/nonprofit.html",
+   "title": "برنامج حسابات الجمعيات الخيرية والمؤسسات الأهلية | Innomate",
+   "desc": "نظام لإدارة الجمعيات الأهلية والمؤسسات الخيرية: التبرعات والمتبرعين، المشروعات والمنح، المستفيدين، وتقارير الحوكمة والشفافية.",
+   "h1": "برنامج حسابات وإدارة الجمعيات الأهلية",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/paints.html",
+   "title": "نظام ERP لمصانع الدهانات | التركيبات والتشغيلات – Innomate",
+   "desc": "نظام ERP لمصانع الدهانات والكيماويات: إدارة التركيبات والخلطات، تشغيلات الإنتاج، مراقبة الجودة، والتوزيع على ERPNext.",
+   "h1": "نظام ERP لمصانع الدهانات والكيماويات",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/pharma.html",
+   "title": "نظام ERP لمصانع وشركات الأدوية في مصر | Innomate",
+   "desc": "نظام ERP لشركات ومصانع الأدوية: تتبع التشغيلات وتواريخ الصلاحية، الجودة، سلاسل التوزيع، والفاتورة الإلكترونية على ERPNext.",
+   "h1": "نظام ERP لمصانع وشركات الأدوية",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/professionals.html",
+   "title": "برنامج فواتير وحسابات للمهن الحرة والمكاتب المهنية | Innomate",
+   "desc": "نظام للمكاتب الاستشارية والمحاماة والمحاسبة والعيادات الخاصة والمستقلين: العملاء والعقود، الوقت والأتعاب، الفوترة والفاتورة الإلكترونية.",
+   "h1": "نظام حسابات وفواتير للمهن الحرة والمكاتب المهنية",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "sectors/sustainability.html",
+   "title": "قياس الاستدامة وتقارير ESG من نظام ERP | Innomate",
+   "desc": "قياس استهلاك الطاقة والمياه والانبعاثات وتقارير ESG من بيانات التشغيل الفعلية في ERPNext، مع حساسات IoT لعدادات الطاقة.",
+   "h1": "قياس الاستدامة وتقارير ESG من بيانات التشغيل",
+   "schema": "Organization, PostalAddress, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/ai-agents.html",
+   "title": "وكلاء الذكاء الاصطناعي للشركات داخل ERPNext | Innomate",
+   "desc": "وكلاء ذكاء اصطناعي مدمجون في ERPNext: يجيبون بالعربية من بياناتك، يجهزون التقارير، ينبهون بالمخزون والمديونيات، وينفذون مهام بصلاحيات محددة وموافقة بشرية.",
+   "h1": "وكلاء ذكاء اصطناعي يعملون داخل نظامك",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/business-intelligence.html",
+   "title": "ذكاء الأعمال ولوحات Power BI من بيانات ERP | Innomate",
+   "desc": "لوحات مؤشرات أداء وتقارير Power BI متصلة مباشرة بـ ERPNext: مبيعات، ربحية، مخزون، ومديونيات لحظية للإدارة دون تصدير يدوي.",
+   "h1": "لوحات مؤشرات الأداء وذكاء الأعمال",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/cloud-hosting.html",
+   "title": "استضافة ERPNext سحابية مُدارة في مصر | Innomate",
+   "desc": "استضافة ERPNext على خوادم سحابية أو داخل شركتك: أداء عالٍ، نسخ احتياطي يومي، تشفير، مراقبة على مدار الساعة، وتحديثات مُدارة دون توقف العمل.",
+   "h1": "استضافة ERPNext سحابية مُدارة",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/custom-development.html",
+   "title": "تطوير وتخصيص ERPNext وبرمجة التقارير | Innomate",
+   "desc": "تخصيص ERPNext على مقاس عملك: شاشات وحقول جديدة، دورات موافقات، تقارير ومطبوعات عربية، تطبيقات Frappe مخصصة، وربط بأي نظام عبر API.",
+   "h1": "تطوير وتخصيص ERPNext على مقاس عملك",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/erpnext.html",
+   "title": "تطبيق نظام ERPNext في مصر | شريك تطبيق ERP – Innomate",
+   "desc": "شريك تطبيق ERPNext في مصر: حسابات ومبيعات ومشتريات ومخازن وتصنيع في نظام واحد، مع ربط الفاتورة الإلكترونية وتدريب عربي ودعم 24/7.",
+   "h1": "تطبيق نظام ERPNext لشركتك في مصر",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/eta-e-invoice.html",
+   "title": "ربط الفاتورة والإيصال الإلكتروني بـ ERPNext | Innomate",
+   "desc": "ربط نظامك بمنظومة الفاتورة الإلكترونية والإيصال الإلكتروني لمصلحة الضرائب المصرية: تكويد الأصناف، التوقيع، الإرسال التلقائي، ومتابعة حالة كل مستند.",
+   "h1": "ربط الفاتورة الإلكترونية والإيصال الإلكتروني بنظامك",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/hr-payroll.html",
+   "title": "برنامج موارد بشرية ومرتبات للشركات في مصر | Innomate",
+   "desc": "نظام موارد بشرية ومرتبات على ERPNext: ملفات الموظفين، الحضور، الإجازات، حساب المرتبات والتأمينات الاجتماعية وضريبة كسب العمل، وبوابة خدمة ذاتية.",
+   "h1": "برنامج الموارد البشرية والمرتبات",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/index.html",
+   "title": "حلول ERPNext والذكاء الاصطناعي للشركات في مصر | Innomate",
+   "desc": "عشر خدمات على نظام واحد: تطبيق ERPNext، الفاتورة الإلكترونية، الموارد البشرية والمرتبات، المخازن، البصمة، IoT، وكلاء AI، Power BI، التطوير والاستضافة.",
+   "h1": "حلول ERPNext والذكاء الاصطناعي للشركات في مصر",
+   "schema": "Organization, PostalAddress, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/iot-integration.html",
+   "title": "ربط إنترنت الأشياء IoT بنظام ERP للمصانع | Innomate",
+   "desc": "ربط الآلات والحساسات بـ ERPNext: عدادات الإنتاج، الطاقة، الحرارة والرطوبة تصل إلى أوامر التشغيل والصيانة لحظياً في مصنعك.",
+   "h1": "ربط الآلات والحساسات بنظام ERP",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/warehouse-management.html",
+   "title": "برنامج إدارة المخازن والمستودعات | نظام مخزون ERPNext – Innomate",
+   "desc": "برنامج مخازن على ERPNext: مخازن متعددة، تتبع التشغيلات وتواريخ الصلاحية والأرقام التسلسلية، باركود، جرد، وتنبيهات حد الطلب في كل الفروع.",
+   "h1": "برنامج إدارة المخازن والمستودعات",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  },
+  {
+   "path": "services/zkteco-attendance.html",
+   "title": "ربط جهاز البصمة ZKTeco بنظام الحضور والمرتبات | Innomate",
+   "desc": "ربط أجهزة البصمة ZKTeco بـ ERPNext: سحب حركات الحضور والانصراف تلقائياً من كل الفروع وحسابها في الورديات والمرتبات دون تصدير يدوي.",
+   "h1": "ربط أجهزة البصمة ZKTeco بالحضور والمرتبات",
+   "schema": "Organization, PostalAddress, Service, FAQPage, Question, Answer, BreadcrumbList, ListItem"
+  }
+ ]
+}

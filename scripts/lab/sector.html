@@ -1,0 +1,22 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/assets/vendor/three/three.module.js","three/addons/":"/assets/vendor/three/addons/"}}</script>
+</head><body>
+<script type="module">
+import { THREE, sectors, services, pages, studio, fit, frame } from '/assets/js/models3d.js';
+const q = new URLSearchParams(location.search);
+const name = q.get('s') || 'food', lib = { sectors, services, pages }[q.get('k') || 'sectors'];
+const W = +(q.get('w') || 1000);
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(W, W); renderer.setClearColor(0x000000, 0);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+studio(renderer, scene, { shadowOpacity: 0.2 });
+const model = fit(lib[name](), 3.5);
+model.rotation.y = -0.35;
+scene.add(model);
+const cam = new THREE.PerspectiveCamera(28, 1, 0.1, 100);
+frame(cam, model, [5.4, 4.3, 6.6], 0.94);
+renderer.render(scene, cam);
+requestAnimationFrame(() => { renderer.render(scene, cam); document.body.dataset.ready = '1'; });
+</script></body></html>

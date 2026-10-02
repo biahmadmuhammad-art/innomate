@@ -1,0 +1,1522 @@
+[
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "brandLabel: 'Innomate — الصفحة الرئيسية'",
+    "replace": "brandLabel: 'Innomate: الصفحة الرئيسية'",
+    "lang": "ar",
+    "reason": "Em dash in the logo link's aria-label (screen readers read it). A colon does the same job.",
+    "key": "t.brandLabel",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "cta: 'احجز استشارة مجانية',",
+    "replace": "cta: 'احجز جلسة تحليل مجانية',",
+    "lang": "ar",
+    "reason": "One intent, three labels (استشارة مجانية / جلسة تحليل مجانية / احجز الجلسة). Use the hero label everywhere. Check the nav button width after the change.",
+    "key": "t.cta",
+    "category": "CTA consistency",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "chip: 'الأكثر طلباً'",
+    "replace": "chip: 'دليل عملي'",
+    "lang": "ar",
+    "reason": "An unsourced popularity claim, shown next to a sparkles icon. Name the thing instead.",
+    "key": "t.megaFeature.chip",
+    "category": "unverified claim",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "title: 'هل شركتك جاهزة للفاتورة والإيصال الإلكتروني؟'",
+    "replace": "title: 'دليل ربط الفاتورة والإيصال الإلكتروني'",
+    "lang": "ar",
+    "reason": "Rhetorical-question heading. Say what the card links to.",
+    "key": "t.megaFeature.title",
+    "category": "rhetorical question",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "faq: { title: 'أسئلة تسمعها كثيراً'",
+    "replace": "faq: { title: 'أسئلة نسمعها كثيراً'",
+    "lang": "ar",
+    "reason": "«تسمعها» (you hear) should be «نسمعها» (we hear), which is also what the English says.",
+    "key": "t.faq.title",
+    "category": "meaning",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "askTitle: 'سؤالك مش هنا؟'",
+    "replace": "askTitle: 'لم تجد سؤالك؟'",
+    "lang": "ar",
+    "reason": "Optional. Dialect sits next to an MSA headline in the same block. Pick one register; dialect is fine if it's used across all WhatsApp microcopy.",
+    "key": "t.faq.askTitle",
+    "category": "register",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "lead: 'نرسم معك دورة عملك الحالية ونقول لك بصراحة ما الذي يحتاج نظاماً، وما الذي لا يحتاج.'",
+    "replace": "lead: 'نرسم معك دورة عملك الحالية ونحدد ما يحتاج نظاماً وما يمكن أن يبقى كما هو.'",
+    "lang": "ar",
+    "reason": "«بصراحة» announces honesty (narrated candor), and «ما يحتاج / ما لا يحتاج» is a mirrored pair. Same promise, said plainly.",
+    "key": "t.ctaBand.lead",
+    "category": "contrast + narrated candor",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "يعملون داخله — بتدريب عربي ودعم على مدار الساعة.",
+    "replace": "يعملون داخله. التدريب بالعربية والدعم على مدار الساعة.",
+    "lang": "ar",
+    "reason": "Em dash in the hero lead. Split into two sentences.",
+    "key": "t.homeCopy.lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "svcTitle: 'ست قدرات، على نظام واحد'",
+    "replace": "svcTitle: 'ست خدمات تعمل على نظام واحد'",
+    "lang": "ar",
+    "reason": "«قدرات» is a calque of 'capabilities', and the 'X، على Y' shape is a slogan. Plain noun.",
+    "key": "t.homeCopy.svcTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "aiTitle: 'اسأل نظامك بالعامية.<br>وخلّيه يشتغل.'",
+    "replace": "aiTitle: 'وكلاء ذكاء اصطناعي داخل نظامك<br>تسألهم بالعامية'",
+    "lang": "ar",
+    "reason": "A two-beat punchline in dialect, in an H2 on an MSA page. State what it is. No tags in the H2, because data-split breaks words apart.",
+    "key": "t.homeCopy.aiTitle",
+    "category": "slogan headline + register",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "PO-0312</span> — بند واحد",
+    "replace": "PO-0312</span>. بند واحد",
+    "lang": "ar",
+    "reason": "Em dash in the demo answer.",
+    "key": "t.homeCopy.agents[2].a",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "jTitle: 'من الرسمة على الورق إلى نظام يعمل'",
+    "replace": "jTitle: 'خمس مراحل من التحليل حتى التشغيل'",
+    "lang": "ar",
+    "reason": "'From X to Y' journey slogan. Say what the section contains.",
+    "key": "t.homeCopy.jTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "كل مرحلة تنتهي بشيء يعمل، لا بتقرير.",
+    "replace": "كل مرحلة تنتهي بجزء يعمل في شركتك.",
+    "lang": "ar",
+    "reason": "Tail negation «، لا بتقرير». This exact idea appears 4 times on the site (jSub, why[2], how.lead, faqs[1]).",
+    "key": "t.homeCopy.jSub",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "والأرصدة الافتتاحية — مع مراجعة عينات قبل الاعتماد.",
+    "replace": "والأرصدة الافتتاحية، ونراجع معك عينات قبل الاعتماد.",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "t.homeCopy.jSteps[2].d",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "وندرّب كل دور على ما يفعله فعلاً.",
+    "replace": "وندرّب كل دور على مهامه اليومية.",
+    "lang": "ar",
+    "reason": "«فعلاً» as filler (8 uses across the site).",
+    "key": "t.homeCopy.jSteps[3].d",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "secTitle: 'نظام يتكلم لغة صناعتك'",
+    "replace": "secTitle: 'نظام ERP مُعدّ لقطاعك'",
+    "lang": "ar",
+    "reason": "Calque of 'speaks your industry's language', a stock marketing idiom. Plain statement, and it keeps the ERP keyword.",
+    "key": "t.homeCopy.secTitle",
+    "category": "cliché/calque",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "نبدأ من مصطلحات قطاعك، لا من قالب عام.",
+    "replace": "نبدأ من مصطلحات قطاعك ودورة العمل فيه.",
+    "lang": "ar",
+    "reason": "Tail negation «، لا من قالب عام».",
+    "key": "t.homeCopy.secLead",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "intTitle: 'في المنتصف نظامك. وحوله كل ما يتعامل معه.'",
+    "replace": "intTitle: 'ربط نظامك بالضرائب والبنوك وأجهزة البصمة وواتساب'",
+    "lang": "ar",
+    "reason": "A clipped two-fragment slogan (calque word order). Name the integrations.",
+    "key": "t.homeCopy.intTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "والآلات في المصنع. بيانات تدخل وحدها بدل أن يعيد أحد كتابتها.",
+    "replace": "والآلات في المصنع. البيانات تدخل النظام دون أن يعيد أحد كتابتها.",
+    "lang": "ar",
+    "reason": "Optional. «بدل» contrast; this also reads a little smoother.",
+    "key": "t.homeCopy.intLead",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "whyTitle: 'لسنا مزوّد برنامج. نحن الفريق الذي يبقى بعد الإطلاق.'",
+    "replace": "whyTitle: 'نطبّق النظام ونبقى معك بعد الإطلاق'",
+    "lang": "ar",
+    "reason": "The classic 'We're not X. We're Y.' plus «نحن». State Y.",
+    "key": "t.homeCopy.whyTitle",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "بجزء يعمل فعلاً في شركتك.",
+    "replace": "بجزء يعمل في شركتك.",
+    "lang": "ar",
+    "reason": "«فعلاً» as filler.",
+    "key": "t.homeCopy.why[2][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "'دعم لا يختفي'",
+    "replace": "'دعم فني متواصل'",
+    "lang": "ar",
+    "reason": "A cute negation headline ('support that doesn't disappear').",
+    "key": "t.homeCopy.why[3][1]",
+    "category": "cute negation headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "'قدرات المؤسسات الكبيرة — وكلاء <bdi lang=\"en\">AI</bdi>، حساسات المصانع، لوحات <bdi lang=\"en\">Power BI</bdi> — بميزانية الشركات المتوسطة.'",
+    "replace": "'وكلاء <bdi lang=\"en\">AI</bdi> وحساسات المصانع ولوحات <bdi lang=\"en\">Power BI</bdi>، وهي أدوات الشركات الكبيرة، بميزانية شركة متوسطة.'",
+    "lang": "ar",
+    "reason": "Two em dashes wrapped around a list. Lead with the list.",
+    "key": "t.homeCopy.why[4][2]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "lines: ['فريقك يستاهل أحسن.', 'أرقام أدق.', 'متابعة أوضح.', 'قرارات أسرع.', 'من غير ما تكبّر', 'الفريق عشان توصل لده.'],",
+    "replace": "lines: ['خمسة ملفات Excel لا تتفق', 'على رقم، وبرنامج حسابات', 'لا يعرف ما في المخزن.', 'نجمعها في نظام واحد', 'يعمل عليه فريقك الحالي', 'دون تعيينات جديدة.'],",
+    "lang": "ar",
+    "reason": "«يستاهل أحسن» is a stock line ('deserves better'). Then comes a staccato triad of comparatives (أدق/أوضح/أسرع) in dialect. Replaced with the concrete pain from the old problem text, keeping the 'no extra hires' point. The splits only feed the justify animation, so re-check the line lengths.",
+    "key": "t.homeCopy.align.lines",
+    "category": "triad + staccato + cliché",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "caption: 'نظام واحد لكل الشركة، لأن خمس ملفات Excel عمرها ما هتتفق على رقم.'",
+    "replace": "caption: 'نظام واحد للحسابات والمخازن والمرتبات والفاتورة الإلكترونية.'",
+    "lang": "ar",
+    "reason": "Once the lines are rewritten, the caption would repeat them. It's also dialect under an MSA page. Use it to name the modules instead (keeps the keyword).",
+    "key": "t.homeCopy.align.caption",
+    "category": "register",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "sectorsHint: 'مرّر أو اختر قطاعاً'",
+    "replace": "sectorsHint: 'اختر قطاعاً'",
+    "lang": "ar",
+    "reason": "Scroll cues are a documented template tell. Keep the instruction without the scroll part.",
+    "key": "t.homeCopy.sectorsHint",
+    "category": "scroll cue",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "ومجرَّباً مع فريقك — لا قائمة مزايا نظرية.",
+    "replace": "ومجرَّباً مع فريقك.",
+    "lang": "ar",
+    "reason": "Em dash plus a tail negation. The positive half already makes the point.",
+    "key": "t.svc.featLead",
+    "category": "em dash + not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "eta.gov.eg</a> — آخر مراجعة ${d}.",
+    "replace": "eta.gov.eg</a>. آخر مراجعة: ${d}.",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "t.eta.source",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "allTitle: 'اختر ما يناسبك'",
+    "replace": "allTitle: 'الخدمات العشر'",
+    "lang": "ar",
+    "reason": "Generic CTA-as-heading. Name the list.",
+    "key": "t.hub.allTitle",
+    "category": "vague headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "flag: 'الأكثر اختياراً'",
+    "replace": "flag: 'الأنسب لشركة تجارية'",
+    "lang": "ar",
+    "reason": "'Most chosen' is unsourced. Keep it only if sales data backs it; otherwise describe who the package fits.",
+    "key": "t.pricing.flag",
+    "category": "unverified claim",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "لكن التطبيق — التحليل والإعداد ونقل البيانات والتدريب — والاستضافة والدعم لها تكلفة، وهي ما نسعّره.",
+    "replace": "لكن التطبيق (التحليل والإعداد ونقل البيانات والتدريب) والاستضافة والدعم لها تكلفة، وهذا ما نسعّره.",
+    "lang": "ar",
+    "reason": "Two em dashes used as a parenthesis. Use real parentheses, as pricing.lead already does.",
+    "key": "t.pricing.faq[0][1]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "كل مرحلة تنتهي بشيء يعمل فعلاً في شركتك،",
+    "replace": "كل مرحلة تنتهي بجزء يعمل في شركتك،",
+    "lang": "ar",
+    "reason": "«فعلاً» as filler.",
+    "key": "t.how.lead",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "needTitle: 'تطبيق ناجح يحتاج طرفين'",
+    "replace": "needTitle: 'ثلاثة أشياء نحتاجها منكم'",
+    "lang": "ar",
+    "reason": "Aphorism ('success takes two'). Say what follows: three requirements.",
+    "key": "t.how.needTitle",
+    "category": "aphorism headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "والأرصدة — ونساعدكم في ترتيبها.",
+    "replace": "والأرصدة، ونساعدكم في ترتيبها.",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "t.how.needs[1][2]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "beliefTitle: 'النظام الجيد هو الذي يستخدمه الفريق فعلاً'",
+    "replace": "beliefTitle: 'أربعة مبادئ نعمل بها'",
+    "lang": "ar",
+    "reason": "'A good X is one that...' is an aphorism, plus «فعلاً». Plain label for the 4 values below.",
+    "key": "t.about.beliefTitle",
+    "category": "aphorism headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "'التطبيق بداية العلاقة، والدعم والتحسين هو معظمها.'",
+    "replace": "'بعد الإطلاق نستمر في الدعم والتحسينات الشهرية.'",
+    "lang": "ar",
+    "reason": "A quotable symmetrical line. State the practice.",
+    "key": "t.about.values[2][2]",
+    "category": "aphorism",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "['sparkles', 'نضيف ما يوفّر وقتاً'",
+    "replace": "['clock', 'نضيف ما يوفّر وقتاً'",
+    "lang": "ar",
+    "reason": "The sparkles icon is the stock 'AI' glyph. This value is about saving time, so use the clock icon.",
+    "key": "t.about.values[3][0]",
+    "category": "icon cliché",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "'الذكاء الاصطناعي وIoT حين يوفّران ساعات حقيقية، لا للاستعراض.'",
+    "replace": "'نضيف الذكاء الاصطناعي وIoT حين يوفّران ساعات عمل على فريقك.'",
+    "lang": "ar",
+    "reason": "Tail negation «، لا للاستعراض» plus the 'real' intensifier.",
+    "key": "t.about.values[3][2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "10 قطاعات — من مصانع الأغذية والأدوية إلى الجامعات والمقاولات.",
+    "replace": "10 قطاعات، منها مصانع أغذية وأدوية وجامعات وشركات مقاولات.",
+    "lang": "ar",
+    "reason": "Em dash plus a 'from X to Y' false range. Just list them.",
+    "key": "t.clientsPage.lead",
+    "category": "em dash + false range",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "casesTitle: 'كيف طبّقنا — بالتفصيل'",
+    "replace": "casesTitle: 'تفاصيل التطبيق عند عملائنا'",
+    "lang": "ar",
+    "reason": "Em dash in an H2.",
+    "key": "t.clientsPage.casesTitle",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "وبموافقته — المشكلة، الحل، رقم واحد للنتيجة.",
+    "replace": "وبموافقته: المشكلة، والحل، ورقم واحد للنتيجة.",
+    "lang": "ar",
+    "reason": "Em dash. This design note is visible on the page.",
+    "key": "t.clientsPage.caseTodo",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "lead: 'نبني أنظمة تعمل عليها مصانع وشركات حقيقية كل يوم. إن كنت تحب أن ترى أثر عملك، انضم إلينا.'",
+    "replace": "lead: 'نطبّق ERPNext لمصانع وشركات تعمل عليه كل يوم، من مكتبنا في العاشر من رمضان.'",
+    "lang": "ar",
+    "reason": "«حقيقية» as an intensifier, plus the 'If you love X, join us' template.",
+    "key": "t.careers.lead",
+    "category": "cliché + intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "'مم تتكون التكلفة فعلاً، وما الذي يرفعها أو يخفضها.'",
+    "replace": "'مم تتكون التكلفة، وما الذي يرفعها أو يخفضها.'",
+    "lang": "ar",
+    "reason": "«فعلاً» as filler.",
+    "key": "t.resources.articles[5][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "'أربع مهام حقيقية توفر ساعات أسبوعياً، وحدود كل منها.'",
+    "replace": "'أربع مهام توفر ساعات كل أسبوع، وحدود كل منها.'",
+    "lang": "ar",
+    "reason": "«حقيقية» as an intensifier.",
+    "key": "t.resources.articles[7][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "title: 'لوحة التحكم — المبيعات'",
+    "replace": "title: 'لوحة التحكم · المبيعات'",
+    "lang": "ar",
+    "reason": "Em dash. Every other mock title uses «·».",
+    "key": "t.mock.erp.title",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/copy.mjs",
+    "find": "أعلى من الحد — فُتح طلب صيانة",
+    "replace": "أعلى من الحد. فُتح طلب صيانة",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "t.mock.iot.alert",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "tagline: 'شريكك في التحول الرقمي — ERPNext والذكاء الاصطناعي للسوق المصري'",
+    "replace": "tagline: 'شريك تطبيق ERPNext والذكاء الاصطناعي للشركات في مصر'",
+    "lang": "ar",
+    "reason": "Em dash plus «شريكك في التحول الرقمي» (a calque of 'your digital transformation partner', the stock line of this category). Keeps ERPNext.",
+    "key": "company.tagline",
+    "category": "em dash + calque",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "حوّلت عملياتنا — أتمتة كاملة",
+    "replace": "حوّلت عملياتنا: أتمتة كاملة",
+    "lang": "ar",
+    "reason": "Punctuation only. This is a published client quote, so change the wording only with the client's OK. It is also generic («حوّلت عملياتنا»، «يستحق كل قرش»): ask for one number.",
+    "key": "testimonials[2].quote",
+    "category": "em dash (client quote)",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "تدريب عملي لكل فريق على الدورة التي يعمل عليها فعلاً — المحاسبة، المبيعات، المخازن، الموارد البشرية — باللغة العربية، مع أدلة",
+    "replace": "ندرّب كل فريق عملياً على الدورة التي يعمل عليها (المحاسبة، المبيعات، المخازن، الموارد البشرية) باللغة العربية، ونسلّمه أدلة",
+    "lang": "ar",
+    "reason": "Two em dashes plus «فعلاً». Use parentheses and an active verb.",
+    "key": "faqs[3].a",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "a: 'نعم بالكامل. ERPNext",
+    "replace": "a: 'نعم. ERPNext",
+    "lang": "ar",
+    "reason": "«بالكامل» adds nothing to the answer.",
+    "key": "faqs[6].a",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "desc: 'إجابات قبل أن تسأل'",
+    "replace": "desc: 'التكلفة والمدة والدعم'",
+    "lang": "ar",
+    "reason": "A cute line. Say what the FAQ covers.",
+    "key": "nav.company[5].desc",
+    "category": "cute microcopy",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "تدير دورة البيع كاملة لنظام ERP — من البحث عن العملاء حتى إغلاق الصفقة — كشريك استشاري",
+    "replace": "تدير دورة بيع نظام ERP كاملة، من البحث عن العملاء حتى إغلاق الصفقة، كمستشار",
+    "lang": "ar",
+    "reason": "Two em dashes plus «شريك استشاري» (partner jargon).",
+    "key": "jobs[0].summary",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/site.mjs",
+    "find": "لبداية سلسة للعميل",
+    "replace": "حتى يبدأ التطبيق عند العميل في موعده",
+    "lang": "ar",
+    "reason": "«سلسة» is the Arabic 'seamless'.",
+    "key": "jobs[0].responsibilities[4][1]",
+    "category": "buzzword",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "title: 'فاتورة وإيصال إلكتروني بدون صداع'",
+    "replace": "title: 'الفاتورة والإيصال الإلكتروني من داخل النظام'",
+    "lang": "ar",
+    "reason": "'Without the headache' is a stock slogan. The plain version keeps the الفاتورة الإلكترونية keyword.",
+    "key": "groups[1].title",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "title: 'ذكاء اصطناعي يشتغل داخل نظامك'",
+    "replace": "title: 'ذكاء اصطناعي يعمل داخل نظامك'",
+    "lang": "ar",
+    "reason": "Dialect verb in an MSA heading.",
+    "key": "groups[4].title",
+    "category": "register",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "وينفّذون مهام حقيقية بصلاحيات محددة، ولوحات Power BI تعرض للإدارة ما يحدث الآن لا الشهر الماضي.",
+    "replace": "وينفّذون مهام يومية بصلاحيات محددة، ولوحات Power BI تعرض للإدارة أرقام اليوم.",
+    "lang": "ar",
+    "reason": "Tail negation «لا الشهر الماضي» plus 'real' as an intensifier.",
+    "key": "groups[4].lead",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "title: 'مقاس شركتك، على سحابة آمنة'",
+    "replace": "title: 'تخصيص النظام واستضافته'",
+    "lang": "ar",
+    "reason": "A paired slogan ('built to fit, hosted safely'). Name the two services.",
+    "key": "groups[5].title",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "نحوّل دورة عملك — من عرض السعر حتى التحصيل — إلى نظام ERP واحد يعمل بالعربية، متوافق مع الضرائب المصرية، ويعرف فيه",
+    "replace": "نحوّل دورة عملك، من عرض السعر حتى التحصيل، إلى نظام ERP واحد بالعربية ومتوافق مع الضرائب المصرية، يعرف فيه",
+    "lang": "ar",
+    "reason": "Two em dashes plus an adjective triad. Commas, and two qualities instead of three.",
+    "key": "services[0].lead",
+    "category": "em dash + triad",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "ERPNext يسجل العملية نفسها — طلب الشراء، الاستلام، أمر التشغيل، الفاتورة — وتُنشأ",
+    "replace": "ERPNext يسجل العملية نفسها (طلب الشراء، الاستلام، أمر التشغيل، الفاتورة) وتُنشأ",
+    "lang": "ar",
+    "reason": "Two em dashes used as a parenthesis.",
+    "key": "services[0].faq[0][1]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "إلى نفس المستند — بدون بوابة يدوية ولا ملفات وسيطة.",
+    "replace": "إلى نفس المستند، دون إدخال يدوي على البوابة أو ملفات وسيطة.",
+    "lang": "ar",
+    "reason": "Em dash. Also clarifies «بوابة يدوية»: the portal isn't manual, the data entry is.",
+    "key": "services[1].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "والأكواد قبل الإرسال، وليس بعده.",
+    "replace": "والأكواد قبل الإرسال.",
+    "lang": "ar",
+    "reason": "Tail negation «وليس بعده». 'Before' already says it.",
+    "key": "services[1].features[5][2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "في مكان واحد — والمرتب يُحسب",
+    "replace": "في مكان واحد، والمرتب يُحسب",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "services[2].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "يدير دورة الموظف كاملة — التعيين والحضور والإجازات وحساب الأجر والاستقطاعات — ويُنشئ",
+    "replace": "يدير دورة الموظف كاملة (التعيين والحضور والإجازات وحساب الأجر والاستقطاعات) ويُنشئ",
+    "lang": "ar",
+    "reason": "Two em dashes. This definition box is the snippet search engines and AI answers quote, so it should be clean.",
+    "key": "services[2].definition",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "مسير الرواتب مباشرة — بدل التصدير والطباعة والمراجعة اليدوية.",
+    "replace": "مسير الرواتب مباشرة، دون تصدير أو طباعة أو مراجعة يدوية.",
+    "lang": "ar",
+    "reason": "Em dash plus a «بدل» contrast.",
+    "key": "services[3].lead",
+    "category": "em dash + contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "اعرف كم لديك، وأين هو، ومتى ينتهي — لكل صنف في كل مخزن.",
+    "replace": "اعرف رصيد كل صنف في كل مخزن، ومكانه، وتاريخ انتهاء صلاحيته.",
+    "lang": "ar",
+    "reason": "Em dash after a triad. Name the object first.",
+    "key": "services[4].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "يسجل كل حركة للصنف — استلام، تحويل، صرف، جرد — برقم",
+    "replace": "يسجل كل حركة للصنف (استلام، تحويل، صرف، جرد) برقم",
+    "lang": "ar",
+    "reason": "Two em dashes. Definition box.",
+    "key": "services[4].definition",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'شراء قبل النفاد لا بعده'",
+    "replace": "'أمر الشراء يصدر قبل نفاد الصنف'",
+    "lang": "ar",
+    "reason": "The mirrored 'before, not after' pair.",
+    "key": "services[4].outcomes[2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "عدّادات خطوط الإنتاج، استهلاك الطاقة، حرارة غرف التبريد — قراءات تصل إلى ERPNext لحظياً،",
+    "replace": "قراءات عدّادات الإنتاج واستهلاك الطاقة وحرارة غرف التبريد تصل إلى ERPNext لحظياً،",
+    "lang": "ar",
+    "reason": "A fragment list, then an em dash reveal. One sentence.",
+    "key": "services[5].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'الآلة تتوقف ثم تبدأ الصيانة، بدل أن تنبّه قبلها.'",
+    "replace": "'الآلة تتوقف أولاً، وبعدها تبدأ الصيانة.'",
+    "lang": "ar",
+    "reason": "«بدل» contrast. The pain lands harder stated flat.",
+    "key": "services[5].pains[1][1]",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "حسب ساعات التشغيل الفعلية لا التقويم.",
+    "replace": "حسب ساعات تشغيل كل آلة.",
+    "lang": "ar",
+    "reason": "Tail negation «لا التقويم».",
+    "key": "services[5].features[3][2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'صيانة قبل العطل لا بعده'",
+    "replace": "'الصيانة تبدأ قبل العطل'",
+    "lang": "ar",
+    "reason": "Mirrored 'before, not after', the same shape as services[4].outcomes[2].",
+    "key": "services[5].outcomes[1]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "وابعته للمحصلين» — والوكيل يقرأ من ERPNext وينفذ، بنفس صلاحياتك،",
+    "replace": "وابعته للمحصلين». الوكيل يقرأ من ERPNext وينفذ بنفس صلاحياتك،",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "services[6].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "داخل الأنظمة لإنجازه — لا يكتفي بالإجابة مثل روبوت المحادثة.",
+    "replace": "داخل الأنظمة لإنجازه، بينما يكتفي روبوت المحادثة بالإجابة.",
+    "lang": "ar",
+    "reason": "Em dash plus negation. The contrast matters in a definition, so keep it as a plain 'while'.",
+    "key": "services[6].definition",
+    "category": "em dash + not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'إجابات في ثوانٍ بدل تقارير في ساعات'",
+    "replace": "'إجابة في ثوانٍ عن سؤال كان يحتاج ساعات من التقارير'",
+    "lang": "ar",
+    "reason": "A mirrored 'X in seconds instead of Y in hours' pair.",
+    "key": "services[6].outcomes[0]",
+    "category": "symmetrical pair",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "بدلاً من تقرير Excel يُجمع كل أسبوع، لوحة تتحدث وحدها من ERPNext:",
+    "replace": "لوحة تتحدث وحدها من ERPNext وتغنيك عن تقرير Excel الأسبوعي:",
+    "lang": "ar",
+    "reason": "Opens on what it isn't («بدلاً من»). Lead with the thing.",
+    "key": "services[7].lead",
+    "category": "contrast opener",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'نبدأ من القرارات التي تريد اتخاذها، لا من البيانات المتاحة.'",
+    "replace": "'نبدأ من القرارات التي تريد اتخاذها، ثم نحدد البيانات التي تحتاجها.'",
+    "lang": "ar",
+    "reason": "Tail negation «، لا من».",
+    "key": "services[7].steps[0][1]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'مؤشرات لحظية بدل تقارير متأخرة'",
+    "replace": "'مؤشرات تتحدث لحظياً'",
+    "lang": "ar",
+    "reason": "A mirrored pair.",
+    "key": "services[7].outcomes[1]",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "على إطار Frappe — بطريقة تبقى",
+    "replace": "على إطار Frappe، بطريقة تبقى",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "services[8].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/services.mjs",
+    "find": "'النظام يتبع طريقة عملك لا العكس'",
+    "replace": "'النظام مبني على طريقة عملك'",
+    "lang": "ar",
+    "reason": "'Not the other way round' negation.",
+    "key": "services[8].outcomes[0]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "ومن استلمها — فإن حدث استدعاء",
+    "replace": "ومن استلمها. وإن حدث استدعاء",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "sectors[0].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "'كل حركة — استلام خامة، أمر إنتاج، تحويل، فاتورة بيع — تُسجل",
+    "replace": "'كل حركة (استلام خامة، أمر إنتاج، تحويل، فاتورة بيع) تُسجل",
+    "lang": "ar",
+    "reason": "Two em dashes used as a parenthesis.",
+    "key": "sectors[0].faq[0][1]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "'صناعة لا تقبل «تقريباً»: كل تشغيلة بتاريخها ونتيجة فحصها، وكل عبوة تخرج معروف إلى أي موزع ذهبت. نظام مبني للمصنع والمخزن والتوزيع، لا للصيدلية.'",
+    "replace": "'كل تشغيلة بتاريخها ونتيجة فحصها، وكل عبوة تخرج معروف إلى أي موزع ذهبت. نظام لمصانع الأدوية ومخازنها وشبكات توزيعها.'",
+    "lang": "ar",
+    "reason": "The «صناعة لا تقبل تقريباً» opener is a quotable line, and it ends with «، لا للصيدلية». The 'not a pharmacy system' point already has its own FAQ.",
+    "key": "sectors[1].lead",
+    "category": "cute opener + not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "إلا بعد التسليم — إن قورنت.",
+    "replace": "إلا بعد التسليم، هذا إن قورنت أصلاً.",
+    "lang": "ar",
+    "reason": "Em dash as a dramatic aside.",
+    "key": "sectors[2].pains[2][1]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "'قص، خياطة، تشطيب، كي، تعبئة — بكميات كل مرحلة'",
+    "replace": "'قص، خياطة، تشطيب، كي، تعبئة، مع الكمية في كل مرحلة'",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "sectors[4].modules[1][1]",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "في بيته — طلب واحد يتابعه الجميع.",
+    "replace": "في بيته: طلب واحد يتابعه الجميع.",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "sectors[5].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "يُعد القوائم المالية — لمدرسة واحدة",
+    "replace": "يُعد القوائم المالية، لمدرسة واحدة",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "sectors[7].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "والتمريض — في نظام واحد.",
+    "replace": "والتمريض، كلها في نظام واحد.",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "sectors[8].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "البيع أو التصدير — مع عمالة موسمية",
+    "replace": "البيع أو التصدير، مع عمالة موسمية",
+    "lang": "ar",
+    "reason": "Em dash.",
+    "key": "sectors[9].lead",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/ar/sectors.mjs",
+    "find": "'تقارير الاستدامة تبدأ من أرقام حقيقية: كيلووات كل خط إنتاج، لترات المياه، الوقود، والنفايات — تُجمع من النظام والعدادات لا من الاستبيانات.'",
+    "replace": "'تقارير الاستدامة من أرقام مقاسة: كيلووات كل خط إنتاج، ولترات المياه، والوقود، والنفايات، تُجمع من النظام والعدادات مباشرة.'",
+    "lang": "ar",
+    "reason": "Em dash, tail negation «لا من الاستبيانات», and «حقيقية». «مقاسة» carries the same meaning.",
+    "key": "sectors[10].lead",
+    "category": "em dash + not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/templates/blocks.mjs",
+    "find": "${t.role} — <bdi lang=\"en\">${t.company}</bdi></small>",
+    "replace": "${t.role}${L.t.svc.quoteSep}<bdi lang=\"en\">${t.company}</bdi></small>",
+    "lang": "both",
+    "reason": "A hard-coded em dash in every testimonial attribution, in both languages. Reuse the locale separator («، » / ', ').",
+    "key": "testimonialsBlock figcaption",
+    "category": "em dash (template)",
+    "occurrences": 1
+  },
+  {
+    "file": "src/templates/pages.mjs",
+    "find": "<strong>${t.name}</strong> — ${t.role}${v.quoteSep}",
+    "replace": "<strong>${t.name}</strong>${v.quoteSep}${t.role}${v.quoteSep}",
+    "lang": "both",
+    "reason": "A hard-coded em dash in the quote attribution on service pages, in both languages.",
+    "key": "servicePage inline-quote",
+    "category": "em dash (template)",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "cta: 'Book a free consultation',",
+    "replace": "cta: 'Book a free discovery session',",
+    "lang": "en",
+    "reason": "One intent, three labels ('free consultation' / 'free discovery session' / 'Book the session'). Pick one.",
+    "key": "t.cta",
+    "category": "CTA consistency",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "chip: 'Most requested'",
+    "replace": "chip: 'Practical guide'",
+    "lang": "en",
+    "reason": "Unsourced popularity claim, shown with a sparkles icon.",
+    "key": "t.megaFeature.chip",
+    "category": "unverified claim",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "title: 'Is your company ready for e-invoicing and e-receipts?'",
+    "replace": "title: 'E-invoice and e-receipt setup guide'",
+    "lang": "en",
+    "reason": "Rhetorical-question heading.",
+    "key": "t.megaFeature.title",
+    "category": "rhetorical question",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "lead: 'We map your current process with you and tell you honestly what needs a system and what doesn’t.'",
+    "replace": "lead: 'We map your current process with you and mark which parts need a system and which can stay as they are.'",
+    "lang": "en",
+    "reason": "'Honestly' announces candor, and 'what needs / what doesn't' is a mirrored pair.",
+    "key": "t.ctaBand.lead",
+    "category": "narrated candor + mirrored pair",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "svcTitle: 'Six capabilities, one system'",
+    "replace": "svcTitle: 'Six services on one system'",
+    "lang": "en",
+    "reason": "'X, one Y' slogan shape; 'capabilities' is vague.",
+    "key": "t.homeCopy.svcTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "aiTitle: 'Ask your system in plain words.<br>Then let it do the work.'",
+    "replace": "aiTitle: 'AI agents inside your ERP<br>that you ask in plain words'",
+    "lang": "en",
+    "reason": "A two-beat punchline ('Do X. Then let it Y.'). Say what it is.",
+    "key": "t.homeCopy.aiTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "jTitle: 'From a sketch on paper to a live system'",
+    "replace": "jTitle: 'Five phases from analysis to go-live'",
+    "lang": "en",
+    "reason": "'From X to Y' journey slogan.",
+    "key": "t.homeCopy.jTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "Every phase ends with something that works, not a report.",
+    "replace": "Every phase ends with a working part of your system.",
+    "lang": "en",
+    "reason": "Tail negation ', not a report'. The idea repeats 4 times across the site.",
+    "key": "t.homeCopy.jSub",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "and we train every role on what it actually does.",
+    "replace": "and we train every role on its daily tasks.",
+    "lang": "en",
+    "reason": "'actually' as filler.",
+    "key": "t.homeCopy.jSteps[3].d",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "secTitle: 'A system that speaks your industry’s language'",
+    "replace": "secTitle: 'ERP set up for your industry'",
+    "lang": "en",
+    "reason": "The 'speaks your language' idiom. Plain, with the keyword.",
+    "key": "t.homeCopy.secTitle",
+    "category": "cliché",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "We start from your industry’s vocabulary, not a generic template.",
+    "replace": "We start from your industry’s terms and the way it runs.",
+    "lang": "en",
+    "reason": "Tail negation ', not a generic template'.",
+    "key": "t.homeCopy.secLead",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "intTitle: 'Your system in the middle. Everything it deals with around it.'",
+    "replace": "intTitle: 'ERPNext connected to the tax authority, banks, devices and WhatsApp'",
+    "lang": "en",
+    "reason": "Two clipped fragments. Name the integrations (also better for search).",
+    "key": "t.homeCopy.intTitle",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "Data comes in by itself instead of being typed again.",
+    "replace": "Data arrives without anyone typing it again.",
+    "lang": "en",
+    "reason": "Optional. 'instead of' contrast.",
+    "key": "t.homeCopy.intLead",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "whyTitle: 'We’re not a software vendor. We’re the team that stays after go-live.'",
+    "replace": "whyTitle: 'We implement the system and stay on after go-live'",
+    "lang": "en",
+    "reason": "The textbook 'We're not X. We're Y.'",
+    "key": "t.homeCopy.whyTitle",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "and how factories in the industrial cities actually run.",
+    "replace": "and how factories in the industrial cities run.",
+    "lang": "en",
+    "reason": "'actually' as filler.",
+    "key": "t.homeCopy.why[0][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "and your data stays entirely yours.",
+    "replace": "and your data stays yours.",
+    "lang": "en",
+    "reason": "'entirely' as filler.",
+    "key": "t.homeCopy.why[1][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "'Support that doesn’t disappear'",
+    "replace": "'Ongoing technical support'",
+    "lang": "en",
+    "reason": "Cute negation headline.",
+    "key": "t.homeCopy.why[3][1]",
+    "category": "cute negation headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "lines: ['Your team deserves better.', 'Better numbers.', 'Better follow-up.', 'Better decisions.', 'Without hiring a bigger', 'team to get there.'],",
+    "replace": "lines: ['Five Excel files that never', 'agree on a number, and', 'accounting software that', 'can’t see the warehouse.', 'We put it all in one system', 'your current team can run.'],",
+    "lang": "en",
+    "reason": "'Deserves better' is a stock line, followed by a 'Better X. Better Y. Better Z.' staccato triad. Replaced with the concrete pain, keeping the 'no bigger team' point. Re-check the justify layout.",
+    "key": "t.homeCopy.align.lines",
+    "category": "triad + staccato + cliché",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "caption: 'One system for the whole company. Because five spreadsheets never agree.'",
+    "replace": "caption: 'One system for accounting, inventory, payroll and e-invoicing.'",
+    "lang": "en",
+    "reason": "'Because X.' fragment punchline, and it would duplicate the new lines.",
+    "key": "t.homeCopy.align.caption",
+    "category": "fragment punchline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "sectorsHint: 'Scroll or pick an industry'",
+    "replace": "sectorsHint: 'Pick an industry'",
+    "lang": "en",
+    "reason": "Scroll cue.",
+    "key": "t.homeCopy.sectorsHint",
+    "category": "scroll cue",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "Everything here is delivered configured on your data and tested with your team. Not a theoretical feature list.",
+    "replace": "Everything here is delivered configured on your data and tested with your team.",
+    "lang": "en",
+    "reason": "A 'Not a …' fragment after the claim.",
+    "key": "t.svc.featLead",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "allTitle: 'Pick what fits'",
+    "replace": "allTitle: 'All ten services'",
+    "lang": "en",
+    "reason": "Generic heading.",
+    "key": "t.hub.allTitle",
+    "category": "vague headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "Data flows in by itself instead of being re-typed.",
+    "replace": "Data flows in without anyone re-typing it.",
+    "lang": "en",
+    "reason": "Optional. 'instead of' contrast.",
+    "key": "t.integ.lead",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "flag: 'Most chosen'",
+    "replace": "flag: 'Best fit for trading companies'",
+    "lang": "en",
+    "reason": "Unsourced claim. Keep 'Most chosen' only if it's true.",
+    "key": "t.pricing.flag",
+    "category": "unverified claim",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "Every phase ends with something that actually works in your company,",
+    "replace": "Every phase ends with a working part of your system,",
+    "lang": "en",
+    "reason": "'actually' as filler.",
+    "key": "t.how.lead",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "needTitle: 'A successful implementation takes two sides'",
+    "replace": "needTitle: 'Three things we need from you'",
+    "lang": "en",
+    "reason": "Aphorism.",
+    "key": "t.how.needTitle",
+    "category": "aphorism headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "beliefTitle: 'A good system is one the team actually uses'",
+    "replace": "beliefTitle: 'Four rules we work by'",
+    "lang": "en",
+    "reason": "Aphorism plus 'actually'.",
+    "key": "t.about.beliefTitle",
+    "category": "aphorism headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "'Implementation starts the relationship; support and improvement are most of it.'",
+    "replace": "'After go-live we keep supporting the system and improving it every month.'",
+    "lang": "en",
+    "reason": "A quotable symmetrical line.",
+    "key": "t.about.values[2][2]",
+    "category": "aphorism",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "['sparkles', 'We add what saves time'",
+    "replace": "['clock', 'We add what saves time'",
+    "lang": "en",
+    "reason": "Sparkles is the stock 'AI' glyph.",
+    "key": "t.about.values[3][0]",
+    "category": "icon cliché",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "'AI and IoT when they save real hours, not for show.'",
+    "replace": "'We add AI and IoT where they save your team hours.'",
+    "lang": "en",
+    "reason": "Tail negation ', not for show' plus 'real'.",
+    "key": "t.about.values[3][2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "lead: 'We build systems that real factories and companies run on every day. If you like seeing the impact of your work, join us.'",
+    "replace": "lead: 'We implement ERPNext for factories and companies that run on it every day, from our office in 10th of Ramadan City.'",
+    "lang": "en",
+    "reason": "'real' as an intensifier plus the 'If you like X, join us' template.",
+    "key": "t.careers.lead",
+    "category": "cliché + intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "'What the cost is really made of, and what pushes it up or down.'",
+    "replace": "'What the cost is made of, and what pushes it up or down.'",
+    "lang": "en",
+    "reason": "'really' as filler.",
+    "key": "t.resources.articles[5][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "'Four real tasks that save hours every week, and the limits of each.'",
+    "replace": "'Four tasks that save hours every week, and the limits of each.'",
+    "lang": "en",
+    "reason": "'real' as filler.",
+    "key": "t.resources.articles[7][2]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/copy.mjs",
+    "find": "title: 'Dashboard — Sales'",
+    "replace": "title: 'Dashboard · Sales'",
+    "lang": "en",
+    "reason": "The only em dash in visible English copy.",
+    "key": "t.mock.erp.title",
+    "category": "em dash",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "tagline: 'Your digital transformation partner: ERPNext and AI for the Egyptian market'",
+    "replace": "tagline: 'ERPNext implementation and AI for companies in Egypt'",
+    "lang": "en",
+    "reason": "'Your digital transformation partner' is the category's stock line.",
+    "key": "company.tagline",
+    "category": "cliché",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "in the process it actually runs",
+    "replace": "in the process it runs",
+    "lang": "en",
+    "reason": "'actually' as filler.",
+    "key": "faqs[3].a",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "a: 'Completely. ERPNext",
+    "replace": "a: 'Yes. ERPNext",
+    "lang": "en",
+    "reason": "'Completely.' is an emphatic one-word opener.",
+    "key": "faqs[6].a",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "desc: 'Answers before you ask'",
+    "replace": "desc: 'Cost, timing and support'",
+    "lang": "en",
+    "reason": "Cute line; say what's there.",
+    "key": "nav.company[5].desc",
+    "category": "cute microcopy",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "'2–3 years of proven B2B sales experience in software, SaaS or ERP, specifically in the Egyptian market.'",
+    "replace": "'2–3 years of B2B sales in software, SaaS or ERP in the Egyptian market.'",
+    "lang": "en",
+    "reason": "'proven' and 'specifically' are filler.",
+    "key": "jobs[0].requirements[0][1]",
+    "category": "buzzword",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "['Business acumen',",
+    "replace": "['Business knowledge',",
+    "lang": "en",
+    "reason": "'acumen' is job-ad boilerplate.",
+    "key": "jobs[0].requirements[1][0]",
+    "category": "buzzword",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "and the ability to turn complex needs into clear software solutions.",
+    "replace": "and the ability to turn a client’s needs into a clear system scope.",
+    "lang": "en",
+    "reason": "'complex needs … clear solutions' is boilerplate.",
+    "key": "jobs[0].requirements[1][1]",
+    "category": "buzzword",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "then deliver customised demonstrations of our ERP solutions.",
+    "replace": "then run ERPNext demos set up for their case.",
+    "lang": "en",
+    "reason": "'deliver customised demonstrations of our solutions' is boilerplate.",
+    "key": "jobs[0].responsibilities[2][1]",
+    "category": "buzzword",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/site.mjs",
+    "find": "for a smooth client onboarding.",
+    "replace": "so the client’s implementation starts on time.",
+    "lang": "en",
+    "reason": "'smooth onboarding' is the 'seamless' family.",
+    "key": "jobs[0].responsibilities[4][1]",
+    "category": "buzzword",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "title: 'E-invoicing without the headache'",
+    "replace": "title: 'E-invoices and e-receipts sent from ERPNext'",
+    "lang": "en",
+    "reason": "'Without the headache' is a stock slogan. The replacement keeps the keywords.",
+    "key": "groups[1].title",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "AI agents read your data and do real tasks within set permissions, and Power BI dashboards show management what is happening now, not last month.",
+    "replace": "AI agents read your data and do routine tasks within set permissions, and Power BI dashboards show management today’s numbers.",
+    "lang": "en",
+    "reason": "Tail negation ', not last month' plus 'real'.",
+    "key": "groups[4].lead",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "title: 'Built to fit, hosted safely'",
+    "replace": "title: 'Customization and managed hosting'",
+    "lang": "en",
+    "reason": "A mirrored slogan pair.",
+    "key": "groups[5].title",
+    "category": "slogan headline",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "map how work really flows:",
+    "replace": "map how work flows today:",
+    "lang": "en",
+    "reason": "'really' as filler.",
+    "key": "services[0].steps[0][1]",
+    "category": "intensifier",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "validated before submission, not after.",
+    "replace": "validated before submission.",
+    "lang": "en",
+    "reason": "'Before, not after' tail.",
+    "key": "services[1].features[5][2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'Exceptions resolved daily, not at month-end'",
+    "replace": "'Exceptions resolved the same day'",
+    "lang": "en",
+    "reason": "Optional. Tail negation. The contrast carries some information, so keep it if you prefer.",
+    "key": "services[3].outcomes[1]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'Buy before you run out, not after'",
+    "replace": "'Purchase orders raised before stock runs out'",
+    "lang": "en",
+    "reason": "Mirrored 'before, not after'.",
+    "key": "services[4].outcomes[2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'The machine stops, then maintenance starts, instead of an alert beforehand.'",
+    "replace": "'The machine stops first, and only then does maintenance start.'",
+    "lang": "en",
+    "reason": "'instead of' contrast.",
+    "key": "services[5].pains[1][1]",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'Maintenance scheduled by actual running hours, not the calendar.'",
+    "replace": "'Maintenance scheduled by each machine’s running hours.'",
+    "lang": "en",
+    "reason": "Tail negation.",
+    "key": "services[5].features[3][2]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'Maintenance before the breakdown, not after'",
+    "replace": "'Maintenance starts before a breakdown'",
+    "lang": "en",
+    "reason": "Mirrored 'before, not after' (the same shape appears 3 times on the site).",
+    "key": "services[5].outcomes[1]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": ", rather than just answering like a chatbot.",
+    "replace": ", where a chatbot only answers.",
+    "lang": "en",
+    "reason": "'rather than just' contrast in a definition. A plain comparison keeps the distinction.",
+    "key": "services[6].definition",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'Answers in seconds instead of reports in hours'",
+    "replace": "'Answers in seconds to questions that used to take hours of reports'",
+    "lang": "en",
+    "reason": "Mirrored pair.",
+    "key": "services[6].outcomes[0]",
+    "category": "symmetrical pair",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "lead: 'Instead of a spreadsheet assembled every week, a dashboard that updates itself from ERPNext:",
+    "replace": "lead: 'A dashboard that updates itself from ERPNext and replaces the weekly spreadsheet:",
+    "lang": "en",
+    "reason": "Opens on what it isn't.",
+    "key": "services[7].lead",
+    "category": "contrast opener",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'We start from the decisions you want to make, not from the data you happen to have.'",
+    "replace": "'We start from the decisions you want to make, then find the data they need.'",
+    "lang": "en",
+    "reason": "Tail negation.",
+    "key": "services[7].steps[0][1]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'Live indicators instead of late reports'",
+    "replace": "'Indicators updated live'",
+    "lang": "en",
+    "reason": "Mirrored pair.",
+    "key": "services[7].outcomes[1]",
+    "category": "contrast",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/services.mjs",
+    "find": "'The system follows your process, not the other way round'",
+    "replace": "'The system is built around your process'",
+    "lang": "en",
+    "reason": "'Not the other way round.'",
+    "key": "services[8].outcomes[0]",
+    "category": "not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/sectors.mjs",
+    "find": "lead: 'An industry with no room for “roughly”: every batch with its date and test result, and every pack traced to the distributor it went to. Built for the factory, warehouse and distribution, not the pharmacy.'",
+    "replace": "lead: 'Every batch with its date and test result, and every pack traced to the distributor it went to. Built for pharma factories, warehouses and distribution networks.'",
+    "lang": "en",
+    "reason": "Quotable opener plus ', not the pharmacy'. The FAQ covers the pharmacy point.",
+    "key": "sectors[1].lead",
+    "category": "cute opener + not X but Y",
+    "occurrences": 1
+  },
+  {
+    "file": "src/content/en/sectors.mjs",
+    "find": "lead: 'Sustainability reports start with real numbers: kilowatts per production line, litres of water, fuel and waste, collected from the system and meters, not from surveys.'",
+    "replace": "lead: 'Sustainability reports built on measured numbers: kilowatts per production line, litres of water, fuel and waste, read from the system and the meters.'",
+    "lang": "en",
+    "reason": "', not from surveys' tail plus 'real'. 'Measured' carries the meaning.",
+    "key": "sectors[10].lead",
+    "category": "not X but Y",
+    "occurrences": 1
+  }
+]

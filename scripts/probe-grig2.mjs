@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('https://grigoletti.ch/en/', { waitUntil: 'networkidle' });
+await p.waitForTimeout(2500);
+const y = await p.evaluate(() => { const e = [...document.querySelectorAll('*')].find(e => e.children.length === 0 && e.textContent.trim() === 'GERMAN MUSEUMS ASSOCIATION'); return e.getBoundingClientRect().top + scrollY; });
+await p.evaluate(y => scrollTo(0, y - 300), y); await p.waitForTimeout(1200);
+await p.screenshot({ path: '.shots/grig-proj-0.png' });
+const row = await p.evaluate(() => { const e = [...document.querySelectorAll('*')].find(e => e.children.length === 0 && e.textContent.trim() === 'ALICE TOSCHI'); let c = e; for (let i = 0; i < 6; i++) { c = c.parentElement; if (c.getBoundingClientRect().width > 1000) break; } const r = c.getBoundingClientRect(); return { x: r.left + r.width * 0.5, y: r.top + r.height / 2, h: r.height, cls: c.className }; });
+console.log(JSON.stringify(row));
+await p.mouse.move(row.x, row.y, { steps: 6 }); await p.waitForTimeout(900);
+await p.screenshot({ path: '.shots/grig-proj-1.png' });
+await p.mouse.move(row.x - 300, row.y + row.h, { steps: 6 }); await p.waitForTimeout(900);
+await p.screenshot({ path: '.shots/grig-proj-2.png' });
+await b.close();
